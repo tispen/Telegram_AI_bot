@@ -8,14 +8,14 @@ import strings as st
 
 def train():
     config_file = open(st.BOT_DATASET_FOR_TRAINING_FILENAME, "r")
-    BOT_CONFIG = json.load(config_file)
+    bot_config = json.load(config_file)
 
     X = []  # список заготовленных фраз из датасета, по которым  бот определяет intent (намерение)
     Y = []  # (классы) у каждой из заготовленных фраз уже определено намерение. Например у сообщения "Привет" намерение - приветствие (hello)
     # задача модели по Х находить Y
 
     # заполнение списков
-    for name, data in BOT_CONFIG['intents'].items():
+    for name, data in bot_config['intents'].items():
         for example in data['examples']:
             X.append(example)
             Y.append(name)
