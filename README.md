@@ -27,8 +27,8 @@ From Skillbox
 
 1. Для работы бота нужен токен. Чтобы его получить, необходимо написать телеграмм-боту [@BotFather](https://t.me/BotFather). Далее скопируйте его в файл token.txt. В файле должен быть лишь токен.
 2. Скачайте себе этот репозиторий.
-5. Далее установите библиотеки, указанные в requiremets.txt. (pip install 'library name')
-6. Запустите файл main.py. Если успешно, то вы увидите это. 
-![image](https://github.com/tispen/Telegram_AI_bot/assets/71382135/a50d6a82-f1f7-4225-a34f-11a3a44230a8)
+5. Далее установите библиотеки, указанные в requiremets.txt. (pip install -r requirements.txt)
+6. Запустите файл main.py. Если успешно, то вы увидите это.
+![image](https://github.com/tispen/Telegram_AI_bot/assets/71382135/e147138e-3bbd-4db4-8cf5-eb6bb9281e94)
 7. Зайдите в телеграмм, начните чат, бот работает. Если нет - пишите мне в тг.
-![image](https://github.com/tispen/Telegram_AI_bot/assets/71382135/2fa2facc-3fcf-4960-81ce-9c456b46061c)
+![image](https://github.com/tispen/Telegram_AI_bot/assets/71382135/e8129797-be4d-440f-b967-9bf88848b43b)
